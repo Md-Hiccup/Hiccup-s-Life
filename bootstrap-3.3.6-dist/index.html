@@ -115,15 +115,92 @@
 	    <!--  Page Header  -->
 	    <div class="page-header">
 	    	<h1> HELLO HICCUP ! 
-	    	<small>Tag  line </small></h1>
+	    	<small>Being Smart</small></h1>
 	    </div>
+
+		<div class="row">
+			<div class=" col-lg-10 col-lg-offset-1 col-md-6 col-md-offset-3 col-xs-12">
+				<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+					<!-- indicators -->
+					<ol class="carousel-indicators">
+						<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+						<li data-target="#carousel-example-generic" data-slide-to="1" ></li>
+						<li data-target="#carousel-example-generic" data-slide-to="2" ></li>
+					</ol>
+					<!-- wrapper for the slides -->
+					<div class="carousel-inner" role="listbox">
+						<div class="item active">
+							<img src="img/femaile-lion.jpg" />
+							<div class="carousel-caption">
+								Sexy and lovely female lion..
+							</div>
+						</div>
+						<div class="item">
+							<img src="img/female-white-tiger.jpg" />
+							<div class="carousel-caption">
+								Beautiful Female White Tigress...
+							</div>
+						</div>
+						<div class="item">
+							<img src="img/king-lion.jpg" style="height: 440pt;width: 100%;"/>
+							<div class="carousel-caption">
+								The LION King..
+							</div>
+						</div>
+					</div>
+					<!-- controls -->
+					<a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+						<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+							<span class="sr-only">Previous</span>
+					</a>
+					<a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+						<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+							<span class="sr-only">Next</span>
+					</a>
+				</div>
+			</div>
+		</div>
 	
 		<!--   JUMBOTRON  -->
 		<div class="jumbotron">
 			<h1>Hi everybody ! I am Hussain </h1>
 			<p>Today I am here to share some interesting topic on "Javascript" .. yes yes
-			It is the scripting language , used in for making website interactive and make good and efficient website ... till now , I am still learning about the javascript </p>
-			<p><a class="btn btn-primary btn-lg" href="#" role="button"> Learn more ..</a></p>
+			It is the scripting language , used in for making website interactive and make good and efficient website ... till now , I am still learning about the javascript
+			</p>
+			<a href="#" class="btn btn-primary btn-lg " >Learn More</a>
+				</div>
+		<br>
+
+		<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+			<div class="panel panel-success">
+				<div class="panel-heading" role="tab" id="headingOne">
+					<h4  class="panel-title">
+						<a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+							Collapse Group Item #1
+						</a>
+					</h4>
+				</div>
+				<div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
+					<div class="panel-body">
+						This would be the body ..you can put anything in there..
+					</div>
+				</div>
+			</div>
+
+			<div class="panel panel-success">
+				<div class="panel-heading" role="tab" id="headingTwo">
+					<h4  class="panel-title">
+						<a  class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+							Collapse Group Item #2
+						</a>
+					</h4>
+				</div>
+				<div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo ">
+					<div class="panel-body">
+						Why are cookies is so sweet in taste .. i really like .. yummmyyyyy.....
+					</div>
+				</div>
+			</div>
 		</div>
 
 	<div class="input-group input-group-lg">
@@ -131,8 +208,49 @@
  		<input type="text" class="form-control" placeholder="Search Engine" />
   	</div>
   	</br>
-  	 
-  	 <div class="dropdown"><div class="col-lg-2 col-md-4 col-sm-6 col-xs-12">
+
+		<div class="embed-responsive embed-responsive-16by9">
+			<iframe class="embed-responsive-item" src="button.html"></iframe>
+		</div>
+	<br>
+
+
+		<button type="button" class="btn btn-primary btn-lg " data-toggle="modal" data-target="#myModal">Activate Modal.</button>
+		<div class="modal fade" id="myModal">
+			<div class="modal-dialog modal-sm">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span>
+							<span class="sr-only"></span> </button><h4 class="modal-title">Modal Title</h4>
+					</div>
+					<div class="modal-body">
+						<p>Modal body &hellip;</p>
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+						<button type="button" class="btn btn-primary">Save</button>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+		<button type="button" class="btn btn-primary " id="loading" data-loading-text="Loading ..." autocomplete="off">Start Loading</button>
+		<button type="button" class="btn btn-primary " id="stopLoading"  autocomplete="off">Stop Loading</button>
+
+		<button type="button" class="btn btn-primary" data-toggle="button" aria-pressed="false" autocomplete="off">Toggle button</button>
+		<script>
+			$('#loading').on('click',function()
+			{
+				$(this).button('loading').delay();
+			});
+			$('#stopLoading').on('click',function()
+			{
+				$('#loading').button('reset');
+			});
+		</script>
+		<br><br>
+		<div class="dropdown"><div class="col-lg-2 col-md-4 col-sm-6 col-xs-12">
  		<button  class="btn btn-primary btn-lg btn-block  dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-expanded="true">
  			  DropDown List
  				<span class="caret"></span>
@@ -161,6 +279,52 @@
  		<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12"><div class="grey-box">Box 5</div></div>
  		<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12"><div class="grey-box">Box 6</div></div>
 --> 	</div>
+
+		 <div class="well well-lg">This is the example of large well size format</div>
+			<br>
+			<button type="button" class="btn btn-primary" data-toggle="tooltip" data-placement="left" title="Left tooltip">left</button>
+			<button type="button" class="btn btn-primary" data-toggle="tooltip" data-placement="bottom" title="top tooltip">top</button>
+			<button type="button" class="btn btn-primary" data-container="body" data-toggle="popover" data-placement="bottom" data-content="bottom tooltip" data-trigger="focus">bottom</button>
+			<button type="button" class="btn btn-primary" data-container="body" data-toggle="popover" data-placement="right" data-content="right tooltip" data-trigger=focus">right</button>
+			<br>
+			<br>
+		 <div class="panel panel-primary">
+			 <div class="panel-heading">
+				 <h1 class="panel-title">This is the panel title</h1>
+			 </div>
+			 <div class="panel-body">
+				 This is an example of panel body. I know it look pretty awesome .. I also like it ..but good things always
+				 come with lots of features and definitely it is one of them and better things ..are always better
+			 	<table class="table">
+					<tr>
+						<th>ID</th>
+						<th>NAME</th>
+						<th>Add.</th>
+					</tr>
+					<tr>
+						<th>12</th>
+						<th>Hussain</th>
+						<th>lko</th>
+					</tr>
+					<tr>
+						<th>51</th>
+						<th>Hiccup</th>
+						<th>lucknow</th>
+					</tr>
+
+				</table>
+			 </div>
+			 <div class="panel-footer">
+				 yes it is the footer example..
+			 </div>
+		 </div>
+
+		 <ul class="list-group">
+			 <li class="list-group-item list-group-item-success"><span class="badge">5</span>Total list item </li>
+			 <li class="list-group-item list-group-item-danger" >This is the second list item <span class="badge">12</span> </li>
+			 <li class="list-group-item disabled">This is the third list item</li>
+			 <li class="list-group-item">This is the fourth list item</li>
+		 </ul>
  			<!-- BADGES  -->
  		<a href="#">Messages <span class="badge">21</span></a>
  			<button type="button" class="btn btn-primary">
@@ -170,7 +334,37 @@
  		<span class="input-group-addon">Mr.</span>
  		<input type="text" class="form-control" placeholder="Name" />
   	</div>
-  	
+  	<br>
+		 <ul class="media-list">
+			 <li class="media">
+
+				 	<a class="media-left media-top" href="#">
+						 <img src="img/hiccup-dragon.png" style="height: 50px;" alt="Medai part "/>
+					 </a>
+					 <div class="media-body">
+						 <h4 class="media-heading">Hi this is my media heading</h4>
+						 I am here to inform you that ...it is just a media part of javascript and i really never mess with this thing
+						 I am simple natural student with kindness and gentle in behaviour , and never believe in the ...ignore it ..
+						 that's my personel thought ..why I share with some one who just know me a little .!!!!
+
+
+					<div class="media">
+						<a class="media-left" href="#">
+							<img src="img/hiccup.jpg" style="width: 40px;"/>
+						</a>
+						<div class="media-body">
+							<h4 class="media-heading">THis is nested media</h4>
+							Hey guys .. this is th example of nested media of media body ... I am just checking only the example of
+							media .. Really bootstrap is very interesting topic to discuss with everyone .. it really interactive
+							with the user..
+						</div>
+					</div>
+					  </div>
+
+
+			 </li>
+		 </ul>
+		 <br>
   	<div class="progress">
   		<div class="progress-bar progress-bar-striped active progress-bar-success" role="progressbar" aria-valuenow="30" aria-volumein="0" aria-valuemax="100" style="width : 30%;">
   		 <span class="sr-only">40% complete</span>30% loaded</div>
@@ -224,8 +418,25 @@
   		<ul class="pager">
   		<li class="previous disabled"><a href="#"><span aria-hidden="true">&larr;</span>Previous</a></li>
   		<li class="next"><a href="#">Next<span aria-hidden="true">&rarr;</span></a></li>
-  		</ul>
-  	</nav>
+  		 </ul>
+  	     </nav>
+
+	 </div>
+	</div>
+
+	<script>
+		$(function(){
+			$('[data-toggle="tooltip"]').tooltip()
+		});
+	</script>
+
+	<script>
+		$(function(){
+			$('[data-toggle="popover"]').popover()
+		});
+	</script>
+  </body>
+</html>
 
   <!--	<div class="input-group ">
   		<input type="email" class="form-control" placeholder="Email"/>
@@ -346,10 +557,7 @@
 			<li class="divider"></li> 		
  			<li><a href="#">Contact</a></li>
  		</ul>
- 	</div>         --
  </div>  -->
-</body>
-</html> 	
 
 	
  	<!--             BUTTON ALIGNMENT AND ITS DIFFERNT COLOUR 
