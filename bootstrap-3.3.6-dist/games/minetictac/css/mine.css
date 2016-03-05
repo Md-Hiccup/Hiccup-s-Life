@@ -1,0 +1,33 @@
+.square {
+    height : 70px ;
+    width : 70px ;
+    text-align : center ;
+    font-size : 30pt ;
+    font-weight : bold  ;
+    font-family :verdana ;
+}
+
+.button {
+    width : 150pt;
+    font-family : courier ;
+    font-size : 20pt ;
+    font-style: normal ;
+    font-weight: bold ;
+    color : brown ;
+    background : palegreen ;
+}
+h1 {
+    color : indigo;
+    background : coral ;
+    font-size : 50pt ;
+    font-family : gabriola ;
+}
+
+body {
+    background: navajowhite;
+}
+
+table{
+    height: 25pc;
+    width: 40pc;
+}
