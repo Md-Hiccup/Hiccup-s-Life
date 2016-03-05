@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/bootstraps.iml" filepath="$PROJECT_DIR$/.idea/bootstraps.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/bootstrap-3.3.6-dist.iml" filepath="$PROJECT_DIR$/.idea/bootstrap-3.3.6-dist.iml" />
     </modules>
   </component>
 </project>
