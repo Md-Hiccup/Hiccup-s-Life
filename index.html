@@ -13,6 +13,7 @@
         }
 
         .head {
+            color: rgba(20, 9, 62, 0.97);
             font-size: 40pt;
             font-style: oblique;
             font-family: "Californian FB";
@@ -65,7 +66,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="#" data-toggle="tooltip" data-placement="bottom" title="Hiccup's Life">
+                <a class="navbar-brand" href="#home" data-toggle="tooltip" data-placement="bottom" title="Hiccup's Life">
                     <img id="brand-logo" alt="website-logo" src="./img/hiccup.jpg">
                 </a>
 
@@ -74,30 +75,30 @@
             <!-- Collect the nav links , forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="navbar-collapse-1">
                 <ul class="nav nav-pills navbar-right ">
-                    <li role="presentation" class="active">
-                        <a href="index.html" data-toggle="tooltip" data-placement="bottom" title="Home"><h4>Home</h4>
+                    <li role="presentation" class="active" data-toggle="tooltip" data-placement="bottom" title="Home">
+                        <a href="index.html" ><h4>Home</h4>
                             <span class="sr-only"></span> </a>
                     </li>
 
-                    <li role="presentation"><a href="blog.html" data-toggle="tooltip" data-placement="bottom"
-                                               title="Blog"><h4>Blog</h4></a></li>
-                    <li role="presentation"><a href="about.html" data-toggle="tooltip" data-placement="bottom"
-                                               title="About Us"><h4>About Us</h4></a></li>
-                    <li role="presentation"><a href="login.html" data-toggle="tooltip" data-placement="bottom"
-                                               title="Log in"><h4>Log in</h4></a></li>
-
+                    <li role="presentation" data-toggle="tooltip" data-placement="bottom"
+                        title="Blog"><a href="blog.html" ><h4>Blog</h4></a></li>
+                    <li role="presentation" data-toggle="tooltip" data-placement="bottom"
+                        title="About Us"><a href="about.html" ><h4>About Us</h4></a></li>
+                   <!-- <li role="presentation" data-toggle="tooltip" data-placement="bottom"
+                        title="Log in"><a href="login.html" ><h4>Log in</h4></a></li>
+                    -->
                     <li class="dropdown" role="presentation">
                         <a href="#games" class="dropdown-toggle" data-toggle="dropdown" data-placement="bottom"
                            title="Games" role="button"
                            aria-expanded="false"><h4>Games
                             <span class="caret"></span></h4></a>
                         <ul class="dropdown-menu" role="menu">
-                            <li class="list-group-item"><a href="#">Game 1</a></li>
-                            <li class="list-group-item"><a href="#">Game 2</a></li>
-                            <li class="list-group-item"><a href="#">Game 3</a></li>
+                            <li class="list-group-item"><a href="tictactoe.html">Tictactoe Single</a></li>
+                            <li class="list-group-item"><a href="tictactoe_double.html">Tictactoe Double</a></li>
+                            <li class="list-group-item"><a href="imarble.html">Imarbe Game</a></li>
                         </ul>
                     </li>
-                    <!-- Navigation form -->
+                    <!-- Navigation form ->
                     <li role="presentation">
                         <form class="navbar-form navbar-right" role="search">
                             <div class="form-group">
@@ -105,13 +106,13 @@
                             </div>
                             <button type="submit" class="btn btn-success">Go</button>
                         </form>
-                    </li>
+                    </li>-->
                 </ul>
             </div>    <!-- navbar collapse end -->
         </div>        <!-- container end -->
     </nav>
 
-    <br><br>
+    <br><br><br><br>
 
     <!--  Page Header
     ===========================================================================-->
@@ -137,7 +138,7 @@
                 <!-- wrapper for the slides -->
                 <div class="carousel-inner" role="listbox">
                     <div class="item active">
-                        <img class="first-slide" src="img/games.png" " />
+                        <img class="first-slide" src="img/games.png" style="height: 440pt;width: 100%;" />
                         <div class="container">
                             <div class="carousel-caption">
                                 Life is nothing without the GAMES ....
@@ -241,9 +242,14 @@
             <p class="lead ">IMarble game is the famous game . It looks very simple game but it is very complicated .
                 Only You just have to done
                 is eliminating all the marble and at last only one marble is left . </p>
-            <button type="button" class="btn btn-success btn-lg" data-toggle="tooltip" data-placement="bottom"
-                    title="Play"><a href="./games/marbles/index.html"> Play Now </a>
+            <button id="play" type="button" class="btn btn-success btn-lg" data-toggle="tooltip" data-placement="bottom"
+                    title="Play" onclick="location.href='imarble.html'" > Play Now
             </button>
+            <script>
+            $('#play').on('click', function () {
+            $(this).button('play').link();
+            });
+            </script>
         </div>
         <div class="col-md-5 ">
             <img class="featurette-image img-responsive center-block" src="./img/imarble.jpg"
@@ -264,7 +270,7 @@
                 for<b class="text-danger">
                     <em>two player .</em></b></p>
             <button type="button" class="btn btn-success btn-lg" data-toggle="tooltip" data-placement="bottom"
-                    title="Play"><a href="./games/minetictac/index.html"> Play Now </a>
+                    title="Play" onclick="location.href='tictactoe_double.html'"> Play Now
             </button>
         </div>
         <div class="col-md-5 col-md-pull-7">
@@ -283,7 +289,7 @@
                 also played this game.
                 This game is for <b class="text-danger"><em>Single Player</em></b>. </p>
             <button type="button" class="btn btn-success btn-lg" data-toggle="tooltip" data-placement="bottom"
-                    title="Play"><a href="./games/TicTacToe/index.html"> Play Now </a>
+                    title="Play" onclick="location.href='tictactoe.html'"> Play Now
             </button>
         </div>
         <div class="col-md-5">
@@ -316,12 +322,11 @@
             <li class="active"><a href="index.html">1</a></li>
             <li><a href="blog.html">2</a></li>
             <li><a href="about.html">3</a></li>
-            <li><a href="login.html">4</a></li>
+        <!--    <li><a href="login.html">4</a></li>    -->
             <li><a href="blog.html"><span class="sr-only">Next</span><span aria-hidden="true">&raquo;</span></a></li>
         </ul>
     </nav>
 </div>
-
 <!--   Footer
 ========================================================== -->
 
@@ -347,6 +352,11 @@
 </footer>
 
 
+<script>
+    $(function () {
+        $('[data-toggle="tooltip"]').tooltip()
+    });
+</script>
 <!-- Bootstrap core JavaScript
 ================================================== -->
 <!-- Placed at the end of the document so the pages load faster -->
@@ -355,3 +365,4 @@
 <script src="./js/bootstrap.min.js"></script>
 </body>
 </html>
+<!

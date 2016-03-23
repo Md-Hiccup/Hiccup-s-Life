@@ -10,6 +10,7 @@ var cwon = 0 ;
 resetRandom();
 
 function human(squa) {
+
     var sq = getEle(squa.id);
     if (sq.innerText == "") {
         sq.innerHTML = h;

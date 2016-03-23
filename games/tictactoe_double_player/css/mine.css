@@ -6,16 +6,7 @@
     font-weight : lighter  ;
     font-family :verdana ;
 }
-.won{
-    font-size : 15pt ;
-    font-weight : lighter  ;
-    height : 10px ;
-    width : 20px ;
-}
-div {
-    font-size : xx-large;
-    color: #f0f0f2;
-}
+
 .button {
     width : 100pt;
     font-family : courier ;
@@ -24,15 +15,19 @@ div {
     font-style: normal;
     font-weight: bolder;
     background : indianred;
-}
+}/*
 h1 {
-    color : green ;
-    background : yellow ;
+    color : indigo;
+    background : coral ;
     font-size : 50pt ;
     font-family : gabriola ;
 }
-
+*/
 body {
-    background: #55ACEE;
-    height : 150pt;
+    background: white;
 }
+/*
+table{
+    height: 25pc;
+    width: 40pc;
+}*/

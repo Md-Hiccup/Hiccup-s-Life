@@ -78,9 +78,11 @@
             <!-- Collect the nav links , forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <p class="navbar-text">This is the plain text :)</p>
-                <ul class="nav navbar-nav">
-                    <li class="active"><a href="#">Link<span class="sr-only">(current)</span></a></li>
-                    <li><a href="#">Link</a></li>
+                <ul class="nav  nav-pills navbar-right">
+                    <li class="active" data-toggle="popover" data-placement="bottom" title="link connector" >
+                        <a href="#">Link<span class="sr-only">(current)</span></a></li>
+                    <li data-toggle="tooltip" data-placement="bottom" title="link connector"><a href="#">Link</a>
+                    </li>
                     <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">DropDown
                             <span class="caret"></span></a>
@@ -137,7 +139,7 @@
                 <!-- wrapper for the slides -->
                 <div class="carousel-inner" role="listbox">
                     <div class="item active">
-                        <img src="img/femaile-lion.jpg"/>
+                        <img src="img/female-lion.jpg"/>
 
                         <div class="carousel-caption">
                             Sexy and lovely female lion..
@@ -319,7 +321,7 @@
                 data-placement="bottom" data-content="bottom tooltip" data-trigger="focus">bottom
         </button>
         <button type="button" class="btn btn-primary" data-container="body" data-toggle="popover" data-placement="right"
-                data-content="right tooltip" data-trigger=focus">right
+                data-content="right tooltip" data-trigger="focus">right
         </button>
         <br>
         <br>
@@ -378,7 +380,7 @@
             <li class="media">
 
                 <a class="media-left media-top" href="#">
-                    <img src="img/hiccup-dragon.png" style="height: 50px;" alt="Medai part "/>
+                    <img src="img/hiccup-dragon.png" style="height: 50px;" alt="Media part "/>
                 </a>
 
                 <div class="media-body">

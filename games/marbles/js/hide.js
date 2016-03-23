@@ -14,13 +14,15 @@ var oldEvt;
 table.setAttribute('id', 'table');
 table.setAttribute('border', 2);
 table.setAttribute('align', 'center');
-table.setAttribute('height', '440pt');
-table.setAttribute('width', '50%');
+table.setAttribute('height', '500pt');
+table.setAttribute('width', '70%');
 
 var arr = [];
-n = prompt("Enter the matrix length ");
-
+function value() {
+    n = prompt("Enter the matrix length ");
+}
 function createTable() {
+    value();
     for (var i = 0; i < n; i++) {
         var row = getRow();
         for (var j = 0; j < n; j++) {
@@ -39,7 +41,7 @@ function createTable() {
 
             }
             count++;
-            row.appendChild(col);
+            row.appendChild(col);;
         }
         table.appendChild(row);
     }
@@ -49,7 +51,7 @@ function createTable() {
 function getRow() {
     var a = document.createElement('tr');
     a.setAttribute('border', 2);
-    a.setAttribute('bgcolor', 'white')
+    a.setAttribute('bgcolor', 'white');
     return a;
 }
 
@@ -58,6 +60,7 @@ function getCol(val, r, c) {
     ab.setAttribute('border', 2);
     ab.setAttribute('bgcolor', 'palered')
 //    ab.innerHTML = val;
+
     ab.setAttribute('class', 'square');
     ab.setAttribute('height', '40px');
     ab.setAttribute('width', '50px');
