@@ -2,22 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b70b6afe-d827-4403-935d-3e03f6c35a68" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/games/TicTacToe/css/tic.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/games/TicTacToe/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/games/TicTacToe/js/lib.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/games/TicTacToe/js/tic.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/games/minetictac/css/mine.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/games/minetictac/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/games/minetictac/js/mine.js" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/about.html" afterPath="$PROJECT_DIR$/about.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blog.html" afterPath="$PROJECT_DIR$/blog.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/games/marbles/css/marble.css" afterPath="$PROJECT_DIR$/games/marbles/css/marble.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/games/marbles/index.html" afterPath="$PROJECT_DIR$/games/marbles/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/games/marbles/js/hide.js" afterPath="$PROJECT_DIR$/games/marbles/js/hide.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/login.html" afterPath="$PROJECT_DIR$/login.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web.html" afterPath="$PROJECT_DIR$/web.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/imarble.html" afterPath="$PROJECT_DIR$/imarble.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tictactoe.html" afterPath="$PROJECT_DIR$/tictactoe.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tictactoe_double.html" afterPath="$PROJECT_DIR$/tictactoe_double.html" />
     </list>
     <ignored path="bootstrap-3.3.6-dist.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -80,11 +67,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="tictactoe.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="tictactoe.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tictactoe.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.78552973">
-              <caret line="77" column="5" selection-start-line="77" selection-start-column="5" selection-end-line="77" selection-end-column="5" />
+            <state vertical-scroll-proportion="-19.576923">
+              <caret line="99" column="91" selection-start-line="99" selection-start-column="91" selection-end-line="99" selection-end-column="91" />
               <folding />
             </state>
           </provider>
@@ -93,19 +80,23 @@
       <file leaf-file-name="tictactoe_double.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tictactoe_double.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-12.269231">
-              <caret line="68" column="56" selection-start-line="68" selection-start-column="56" selection-end-line="68" selection-end-column="56" />
+            <state vertical-scroll-proportion="-12.192307">
+              <caret line="99" column="91" selection-start-line="99" selection-start-column="91" selection-end-line="99" selection-end-column="91" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="imarble.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="imarble.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/imarble.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-12.038462">
-              <caret line="68" column="56" selection-start-line="68" selection-start-column="56" selection-end-line="68" selection-end-column="56" />
-              <folding />
+            <state vertical-scroll-proportion="0.5961252">
+              <caret line="109" column="31" selection-start-line="109" selection-start-column="31" selection-end-line="109" selection-end-column="31" />
+              <folding>
+                <marker date="1458753343136" expanded="true" signature="4088:4493" placeholder="..." />
+                <marker date="1458753343136" expanded="true" signature="4166:4467" placeholder="..." />
+                <marker date="1458753343136" expanded="true" signature="4219:4349" placeholder="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -169,10 +160,10 @@
         <option value="$PROJECT_DIR$/games/tictactoe_single_player/js/tic.js" />
         <option value="$PROJECT_DIR$/about.html" />
         <option value="$PROJECT_DIR$/blog.html" />
-        <option value="$PROJECT_DIR$/imarble.html" />
         <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/tictactoe_double.html" />
         <option value="$PROJECT_DIR$/tictactoe.html" />
+        <option value="$PROJECT_DIR$/tictactoe_double.html" />
+        <option value="$PROJECT_DIR$/imarble.html" />
       </list>
     </option>
   </component>
@@ -182,10 +173,9 @@
     <detection-done>true</detection-done>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1456" />
-    <option name="height" value="876" />
+    <option name="x" value="162" />
+    <option name="width" value="1162" />
+    <option name="height" value="858" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -366,16 +356,16 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1456" height="876" extended-state="7" />
-    <editor active="false" />
+    <frame x="162" y="0" width="1162" height="858" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15937941" sideWeight="0.49528936" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20106761" sideWeight="0.49528936" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32974428" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2496474" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4064603" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.41655174" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.15937941" sideWeight="0.5047106" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -838,10 +828,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/imarble.html">
+    <entry file="file://$USER_HOME$/Downloads/Lynda - JavaScript Essential Training/JavaScript Essential Training/JavaScript Essential Training/Exercise Files/Ex_Files_JS_EssT_2011/Exercise Files/Chap07/UsingDebugger/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-12.038462">
-          <caret line="68" column="56" selection-start-line="68" selection-start-column="56" selection-end-line="68" selection-end-column="56" />
+        <state vertical-scroll-proportion="0.7846154">
+          <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -861,27 +851,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tictactoe_double.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-12.269231">
-          <caret line="68" column="56" selection-start-line="68" selection-start-column="56" selection-end-line="68" selection-end-column="56" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Downloads/Lynda - JavaScript Essential Training/JavaScript Essential Training/JavaScript Essential Training/Exercise Files/Ex_Files_JS_EssT_2011/Exercise Files/Chap07/UsingDebugger/script.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7846154">
-          <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tictactoe.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.78552973">
-          <caret line="77" column="5" selection-start-line="77" selection-start-column="5" selection-end-line="77" selection-end-column="5" />
+        <state vertical-scroll-proportion="-19.576923">
+          <caret line="99" column="91" selection-start-line="99" selection-start-column="91" selection-end-line="99" selection-end-column="91" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tictactoe_double.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-12.192307">
+          <caret line="99" column="91" selection-start-line="99" selection-start-column="91" selection-end-line="99" selection-end-column="91" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imarble.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5961252">
+          <caret line="109" column="31" selection-start-line="109" selection-start-column="31" selection-end-line="109" selection-end-column="31" />
+          <folding>
+            <marker date="1458753343136" expanded="true" signature="4088:4493" placeholder="..." />
+            <marker date="1458753343136" expanded="true" signature="4166:4467" placeholder="..." />
+            <marker date="1458753343136" expanded="true" signature="4219:4349" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
